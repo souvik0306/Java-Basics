@@ -11,11 +11,11 @@ public class array_list {
      arrayList.get(2);
      arrayList.size();
      arrayList.add(4);
-    //  System.out.println(arrayList.get(2));
-
+     arrayList.remove(3);
+     
      for (int i =0;i<arrayList.size();i++)
      {
-      System.out.println(arrayList.get(i));
+      System.out.print(arrayList.get(i)+" ");
      }
     }
 }
