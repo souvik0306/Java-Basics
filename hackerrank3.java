@@ -9,13 +9,10 @@ class hackerrank3{
             int a = in.nextInt();
             int b = in.nextInt();
             int n = in.nextInt();
-            for(int s = 0;s<n;s++)
-            {
-                int c = (int)Math.pow(2,n);
-                int d = c*b;
-                int eqn = (a+b+c);
-                System.out.println(eqn);
-            }
+            int c = (int)Math.pow(2,n);
+            int d = c*b;
+            int eqn = (a+b+c);
+            System.out.println(eqn);
         }
         in.close();
         
